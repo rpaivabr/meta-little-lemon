@@ -1,0 +1,45 @@
+.confirmed {
+  background-color: var(--highlight2);
+  height: 300px;
+}
+
+.confirmed-info {
+  grid-area: 1 / 3 / 2 / 7;
+  margin-top: 30px;
+}
+
+.confirmed-info-title {
+  color: var(--primary2);
+  font-size: 56px;
+  font-weight: 500;
+  font-family: var(--font1);
+  line-height: 0.8;
+}
+
+.confirmed-info-subtitle {
+  color: var(--white);
+  font-size: 32px;
+  font-weight: 400;
+  font-family: var(--font1);
+  line-height: 0.8;
+}
+
+.confirmed-info-text {
+  margin: 10px 0;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--font2);
+}
+
+.confirmed-image {
+  grid-area: 1 / 8 / 2 / 11;
+  margin-top: 30px;
+}
+
+.confirmed-image .image {
+  height: 340px;
+  width: 100%;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+}

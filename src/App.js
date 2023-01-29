@@ -1,11 +1,12 @@
-import './App.css';
+import { Nav, Main, Footer } from './template'
+import "./App.css";
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      Homepage
-    </div>
+    <>
+      <Nav />
+      <Main />
+      <Footer />
+    </>
   );
 }
-
-export default App;

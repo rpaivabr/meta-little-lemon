@@ -1,0 +1,47 @@
+.booking {
+  background-color: var(--highlight1);
+  height: 300px;
+}
+
+.booking-image {
+  grid-area: 1 / 3 / 2 / 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-image .image {
+  height: 340px;
+  width: 100%;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+}
+
+.booking-form {
+  grid-area: 1 / 8 / 2 / 11;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
+  width: 250px;
+}
+
+.booking-form input {
+    width: 150px;
+}
+
+.booking-form select {
+    width: 160px;
+}
+
+.booking-form button {
+    margin-top: 20px;
+}
+
+.booking-form label {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font2);
+}

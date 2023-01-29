@@ -1,0 +1,22 @@
+button {
+    color: var(--black);
+    background-color: var(--primary2);
+    border: 1px solid transparent;
+    border-radius: var(--border-radius);
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--font2);
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(90%);
+}
+
+button:disabled {
+    background-color: var(--highlight1);
+    filter: brightness(80%);
+    cursor: not-allowed;
+}
